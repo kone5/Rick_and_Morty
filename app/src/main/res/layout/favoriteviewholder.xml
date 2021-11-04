@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/card_favorite"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/card_relleno"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nombrefavorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF3D00"
+            android:text="Nombre"
+            />
+        <TextView
+            android:id="@+id/respuestanombre"
+            android:text="Name favorite"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusfav"
+            android:textColor="#FF3D00"
+            android:text="Status"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/respStatus"
+            android:gravity="center"
+            android:text="respuesta status"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Species"
+            android:text="Species"
+            android:textColor="#FF3D00"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="respuesta species"
+            android:gravity="center"
+            android:id="@+id/respspecies"/>
+
+        <ImageView
+            android:id="@+id/imagefavorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
